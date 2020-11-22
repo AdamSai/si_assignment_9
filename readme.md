@@ -2,7 +2,7 @@
 
 [Assignment description](https://datsoftlyngby.github.io/soft2020fall/resources/80748096-A9-12-Factor-App.pdf)
 
-At first I thought about reordering the points by portability, but I noticed that the order would pretty much stay the same.
+At first I thought about reordering the points by portability, but I noticed that the order would pretty much stay the same.  
 Re-ordering by importance is also hard, as it seems like the current order makes a lotof sense.
 
 1. Codebase
@@ -30,6 +30,6 @@ Re-ordering by importance is also hard, as it seems like the current order makes
     Treat logs as event streams
     (A twelve-factor app never concerns itself with routing or storage of its output stream. It should not attempt to write to or manage logfiles. Instead, each running process writes its event stream, unbuffered, to stdout. During local development, the developer will view this stream in the foreground of their terminal to observe the app’s behavior.)
 12. Admin processes
-    Run admin/management tasks as one-off processes
+    Run admin/management tasks as one-off processes  
     Sources used:  
     https://12factor.net
