@@ -3,7 +3,7 @@
 [Assignment description](https://datsoftlyngby.github.io/soft2020fall/resources/80748096-A9-12-Factor-App.pdf)
 
 At first I thought about reordering the points by portability, but I noticed that the order would pretty much stay the same.  
-Re-ordering by importance is also hard, as it seems like the current order makes a lotof sense.
+Re-ordering by importance is also hard, as it seems like the current order makes a lot of sense.
 
 1. Codebase
    One codebase tracked in revision control, many deploys
